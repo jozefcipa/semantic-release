@@ -134,3 +134,6 @@ _book
 
 # Mockserver
 CertificateAuthorityCertificate.pem
+
+# IDE
+.idea
