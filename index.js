@@ -252,6 +252,7 @@ module.exports = async (opts = {}, {cwd = process.cwd(), env = process.env, stdo
   context.logger.log(`Running ${pkg.name} version ${pkg.version}`);
   try {
     const {plugins, options} = await getConfig(context, opts);
+
     context.options = options;
     try {
       const result = await run(context, plugins);

@@ -25,6 +25,7 @@
     "@semantic-release/changelog": "^3.0.6",
     "@semantic-release/commit-analyzer": "^7.0.0",
     "@semantic-release/error": "^2.2.0",
+    "@semantic-release/git": "^8.0.0",
     "@semantic-release/release-notes-generator": "^7.1.2",
     "aggregate-error": "^3.0.0",
     "cosmiconfig": "^6.0.0",
@@ -116,7 +117,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/semantic-release/semantic-release.git"
+    "url": "git+https://github.com/jozefcipa/semantic-release-core.git"
   },
   "scripts": {
     "codecov": "codecov -f coverage/coverage-final.json",
