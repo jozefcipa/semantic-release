@@ -126,7 +126,6 @@ $RECYCLE.BIN/
 *.lnk
 
 # Lockfiles
-package-lock.json
 yarn.lock
 
 # Gitbook
